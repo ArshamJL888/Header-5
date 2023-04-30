@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo+2:ital,wght@1,300&family=Teko:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    border: 1px solid rgb(179, 4, 4);
+}
+
+
+.shape {
+    width: 400px;
+    height: 90vh;
+    position: absolute;
+    right: 10%;
+    background-color: rgb(179, 4, 4);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    /* clip-path: circle(50% at 50% 50%); */
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    z-index: 9;
+    background-image: url(../media/company.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.header-text {
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 8%;
+}
+
+.red-color {
+    color: rgb(179, 4, 4);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.header-title {
+    font-size: 44px;
+}
+
+.sub-title {
+    margin-top: 2.5rem;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+}
+
+.media {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.fa {
+    margin-right: 1rem;
+    cursor: pointer;
+}
